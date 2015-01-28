@@ -20,16 +20,17 @@ seriously without being alarmist.
 Secure SSD wipes are challenging because of the way that their
 controllers move data around to compensate for SSD storage cell
 mechanics. See this Usenix 2011 paper by
-[Wei, Grupp, Spada, Swanson](https://www.usenix.org/legacy/events/fast11/tech/full_papers/Wei.pdf)
-from the UCSD Non-Volatile Systems Lab's (NVSL)
-[Erasing SSDs project](http://nvsl.ucsd.edu/index.php?path=projects/sanitize).
+Wei, Grupp, Spada, and Swanson:
+[Reliably Erasing Data From Flash-Based Solid State Drives](https://www.usenix.org/legacy/events/fast11/tech/full_papers/Wei.pdf).
+It's from the UCSD Non-Volatile Systems Lab's (NVSL)
+[Sanitize project](http://nvsl.ucsd.edu/index.php?path=projects/sanitize).
 For SSD's, full volume encryption is attractive as destroying the
 master encryption key or losing the passphrase renders the data on the
 disk effectively unreadable.
 
-I found this detailed paper reverse engineering File Vault 2 by
-Choudary, Grobert, and Metz:
-[Infiltrate the Vault: Security Analysis and Decryption of Lion Full Disk Encryption](http://eprint.iacr.org/2012/374.pdf)
+As for File Vault 2, I found this detailed paper reverse engineering
+the system by Choudary, Grobert, and Metz:
+[Infiltrate the Vault: Security Analysis and Decryption of Lion Full Disk Encryption](http://eprint.iacr.org/2012/374.pdf).
 
 Summarizing, the File Vault 2 full volume master key is
 stored on the Recovery HD partition, encrypted with AES-XTS.  So
@@ -53,8 +54,8 @@ as described by the NVSL paper.  For my pedestrian purposes what I did
 was enough to satisfy me. Besides, the drive's performance degraded so
 much that I couldn't confirm erasure the file.  Of course I didn't
 give out the passphrase nor the recovery key to the drive vendor.
-Still, deleting that file with over adds an extra step that an
-attacker would need to surmount.
+Still, deleting that file adds an extra step of circumventing the SSD
+controller that an attacker would need to surmount.
 
 So to render a File Vault 2 encrypted disk challenging to recover:
 
@@ -64,7 +65,7 @@ So to render a File Vault 2 encrypted disk challenging to recover:
 To the extent possible:
 
 * securely delete EncryptedRoot.plist.wipekey. See above for location.
-* destroy the CoreStorage Volume header. (More on this later.)
+* or destroy the CoreStorage Volume header. (More on this later.)
 
 Final note: What happens on a hybrid SSD + HDD Fusion drive isn't
 considered.
@@ -73,4 +74,6 @@ considered.
  this encryption was gratuitous (Section 4.5) because the key was
  stored in the clear, but the name given to the file: "wipekey", it
  provides for a Core Storage-level mechanism to wipe the disk.
+
+Much thanks to the authors of those articles.
 
