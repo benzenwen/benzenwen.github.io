@@ -2,7 +2,8 @@
 layout: post
 title:  "File Vault 2 Master Key"
 date:   2015-01-28
-categories: sysadmin, crypto, security, mac
+categories: howto sysadmin
+tags: crypto security mac
 ---
 
 Part of my duties as the extended family IT guy is that I deal with
