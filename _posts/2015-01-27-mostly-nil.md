@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Mostly Nil: Radiolab inspiration"
+title:  "Mostly Nil: Radiolab Inspiration"
 date:   2015-01-27
 categories: meta 
 ---
 
 A podcast that I've recently started to enjoy is
 [RadioLab](http://www.radiolab.org) from [WNYC](wnyc.org).  I've been
-absorbing the back catalog when driving, cooking or cleaning up after
+absorbing the back catalog when driving, cooking, or cleaning up after
 dinner. The audio is cut together in a frenetic, simultaneous,
 overlapping style that seems to compress the already chatty banter of
 the hosts.  It quickens their pace to a neighborhood close to the
@@ -36,7 +36,7 @@ even mildly competent to stand as a work of art, but I was pleasantly
 surprised by the outcome.  I'll have to report back later to see how
 my lovely wife (MLW) views it.
 
-The creative impetus also got me write in my blog today.
+The creative impetus also got me to write in my blog today.
 
 The new blog title has a geek double entendre in Lisp.  The opposite
 of 't' or truth in Lisp is 'nil'.
@@ -50,4 +50,4 @@ Speaking of our ephemeral wisp of time, I also, four weeks into the
 year, ordered a 2015 calendar.  An improvement from 2014 by at least
 two months.  Almost nil in the grand scheme of things though.
 
-
+_UPDATE_: Grammar typos.
