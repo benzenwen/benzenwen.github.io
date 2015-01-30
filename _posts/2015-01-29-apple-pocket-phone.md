@@ -34,7 +34,7 @@ More recently, I backed the
 [Pebble](https://twitter.com/benwen/status/279149789843714048)
 kickstarter campaign as a developer.  I'm sheepishly proud to admit
 that wearing my orange Pebble for 1.5 years, I exhausted its vibrating
-motor. It totally out of vibratrons. So I've moved onto my second 
+motor. It's totally out of vibratrons. So I've moved onto my second 
 Pebble.
 
 I love my Pebble.
