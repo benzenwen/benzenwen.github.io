@@ -17,7 +17,7 @@ disturbing cadence of the old FedEx ad's
 with ethereal sound effects and music, the podcast is a production
 tour de force, bringing suspense and humanity to the nerdy topics they
 cover, like the super-collaborative mathematician
-[Paul Erdos](http://www.radiolab.org/story/91699-from-benford-to-erdos/).
+[Paul Erdős](http://www.radiolab.org/story/91699-from-benford-to-erdos/).
 
 What spurred me to write was this
 [podcast](http://www.radiolab.org/story/dust-planet/) on an obscure
@@ -51,4 +51,5 @@ Speaking of our ephemeral wisp of time, I also, four weeks into the
 year, ordered a 2015 calendar.  An improvement from 2014 by at least
 two months.  Almost nil in the grand scheme of things though.
 
-_UPDATE_: Grammar typos.
+_UPDATE_: Grammar typos. Introduced Hungarumlaut (double acute accent)
+on "Erdős".

@@ -3,7 +3,7 @@ layout: post
 title:  "File Vault 2 Master Key"
 date:   2015-01-28
 categories: howto sysadmin
-tags: crypto security mac
+tags: crypto security mac apple osx
 ---
 
 Part of my duties as the extended family IT guy is that I deal with
@@ -72,8 +72,14 @@ considered.
 
 *I originally agreed with the authors of the Infiltrate paper that
  this encryption was gratuitous (Section 4.5) because the key was
- stored in the clear, but the name given to the file: "wipekey", it
- provides for a Core Storage-level mechanism to wipe the disk.
+ stored in the clear. But the name given to the file: "wipekey" is a
+ hint; it provides for a Core Storage-level mechanism to wipe the
+ disk.  However, it does introduce an vulnerability in that the key
+ can be copied by an attacker, making this type of "wipe" potentially
+ reversible.  Note that the passphrase or recovery key is still needed
+ to get to the final volume key.
 
 Much thanks to the authors of those articles.
 
+_UPDATE:_ Added note about copying unencrypted CoreStorage Volume
+header. Grammar, readability, etc.
