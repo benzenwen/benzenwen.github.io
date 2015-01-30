@@ -46,22 +46,22 @@ glanceable utility: A smart watch is as much of an improvement over a
 smart phone as a wrist watch was over a pocket watch.
 
 Yes, there's other functionality that's useful, like activity trackers
-and sleep trackers. New apps are being invented everyday.  Add
+and sleep trackers. New apps are being invented every day.  Add
 authentication and authorization (e.g. payments, vehicle ignition) and
 the wearable gets personally powerful.  I'm bullish on
 wearables,[^strap] and glanceability is the just initial hook.
 
 
 Recall that a generation ago, this original 1983
-[Compaq](http://en.wikipedia.org/wiki/Compaq_Portable) was
-considered a portable computer at 28 pounds (13 kg). I'll go out on a
-limb and say that in the future, our point of view will be similarly
-shifted.  Power capacity, radiated power efficiency, UX, text input,
-and 2-way communication will need innovation, but the bracelet form
-factor will prevail. I'll be telling my grandkids, when rummaging
-through the attic they unearth the musty, rigid, non-origami-folded,
-brittle, watt-gulping, non-corneal-direct display iPhone 6, "Oh that?
-It's an Apple *Pocket* Phone."
+[Compaq](http://en.wikipedia.org/wiki/Compaq_Portable) was considered
+a portable computer at 28 pounds (13 kg). I'll go out on a limb and
+say that in the future, our point of view will be similarly shifted.
+Power capacity, [radiated power efficiency](http://etadevices.com),
+UX, text input, and 2-way communication will need innovation, but the
+bracelet form factor will prevail. I'll be telling my grandkids, when
+rummaging through the attic they unearth the musty, rigid,
+non-origami-folded, brittle, watt-gulping, non-corneal-direct display
+iPhone 6, "Oh that?  It's an Apple *Pocket* Phone."
 
 
 ----
