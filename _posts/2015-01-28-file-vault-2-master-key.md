@@ -11,7 +11,7 @@ failed hard drives.  I'm one to squeeze out the maximum life from
 computer hardware, so I install new hard drives, updrade to SSD's, add
 more RAM, etc. Once I had to return a failing Mac OS X SSD drive that
 was under warranty.  It was encrypted, so I was compelled to do a
-little research on the File Vault 2 system.  The drive was too flaky
+little research on the File Vault 2 system.  The drive was too [flaky](/assets/SSD%20Failure.png)
 to write to for a full wipe, nevermind that wipes are challenging for
 SSDs.  No one in the family is an international spy (as far as I know)
 so we don't have state secrets to protect, but I try and take security
@@ -82,4 +82,4 @@ considered.
 Much thanks to the authors of those articles.
 
 _UPDATE:_ Added note about copying unencrypted CoreStorage Volume
-header. Grammar, readability, etc.
+header. Grammar, readability, etc. Add link to failing fsck.

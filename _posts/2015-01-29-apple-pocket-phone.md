@@ -6,9 +6,6 @@ categories: opinion product
 tags: marketing apple ios 
 ---
 
-What makes the concept of a smart watch intriguing?  Here's a metaphor
-from the history of traditional watches.
-
 There was a time when "watch" meant a pocket watch.
 
 Wrist watches first appeared in the late 1800's as women's
@@ -27,7 +24,7 @@ watches became scarce.
 
 I'm an early adopter of smart watches. I still have one of my Casio
 DataBank watches from the 80's, and somewhere I have my very first
-digital watch. Its red seven-segment LEDs were powered on-demand to
+digital [watch](/assets/First%20digital%20watch.png). Its red seven-segment LEDs were powered on-demand to
 save on precious battery life. Some things never change.
 
 More recently, I backed the
@@ -66,7 +63,8 @@ It's an Apple *Pocket* Phone."
 
 [^analogy]:Ancient SAT-style analogy format. A:B::C:D "A is to B as C is to D"
 
-[^strap]:I'm an angel investor in [Strap](straphq.com), making tools and analytics for wearable development teams.
+[^strap]:I'm delighted to be an angel investor in [Strap](straphq.com), making tools and analytics for wearable development teams.
 
 _UPDATE_: 2015-01-30 Grammar edits, clarifications. Focus on
-glanceability. Thanks to Patrick and Ana for feedback and comments.
+glanceability. Add link to TI watch. Thanks to Patrick and Ana for
+feedback and comments.
