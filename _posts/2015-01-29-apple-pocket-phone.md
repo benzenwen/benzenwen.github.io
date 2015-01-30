@@ -18,7 +18,7 @@ maneuvers, saw the utility of glanceable wristwatches.  From a NYTimes
 on the subject, "an officer reportedly complained that operating a
 pocket watch was difficult when timing a bombardment."
 
-Now, we have to say *pocket* watch to mean those timepieces on a chain
+Today, we have to say *pocket* watch to mean those timepieces on a chain
 in a waistcoat.
 
 When wrist watches appeared, pocket watches disappeared.  That is
@@ -34,31 +34,39 @@ More recently, I backed the
 [Pebble](https://twitter.com/benwen/status/279149789843714048)
 kickstarter campaign as a developer.  I'm sheepishly proud to admit
 that wearing my orange Pebble for 1.5 years, I exhausted its vibrating
-motor. It's totally out of vibratrons. So I've moved onto my second 
-Pebble.
+motor. It's totally out of vibratrons, so I've dropped back to my
+original developer edition Pebble.
 
 I love my Pebble.
 
-## Smartwatch:Smartphone::Wristwatch:Pocket Watch[^analogy]
+### Smartwatch:Smartphone::Wristwatch:Pocket Watch[^analogy]
 
-For short bits of information: an alarm, looking at a Tweet or caller
-ID, here's a smart watch's glanceable utility: A smart watch is as
-much of an improvement over a smart phone as a wrist watch was over a
-pocket watch.
+Focus on *just* glanceability and notification for a moment. For short
+bits of information like a discreet alarm, for looking at a Tweet,
+screening caller ID, or checking the time (!), here's a smart watch's
+glanceable utility: A smart watch is as much of an improvement over a
+smart phone as a wrist watch was over a pocket watch.
 
-There are other reasons I'm bullish on wearables.[^strap] But that
+There are other reasons I'm bullish on wearables,[^strap] but that
 glanceability is the initial hook.
 
-I'll go out on a limb and say that in the future, our point of view
-will be reversed.  The watch form factor will prevail. We'll be
-telling our grandkids, when rummaging through the attic
-they unearth our musty, rigid, brittle, watt-gulping,
-non-corneal-direct display iPhone 6, "Oh that? It's an Apple *Pocket*
-Phone."
+Recall that a generation ago, this
+[Compaq](http://en.wikipedia.org/wiki/Compaq_Portable) was a portable
+computer at 28 pounds (13 kg). I'll go out on a limb and say that in
+the future, our point of view will be similarly shifted.  Power
+capacity, radiated power efficiency, UX, text input, and 2-way
+communication will need innovation, but the bracelet form factor will
+prevail. We'll be telling our grandkids, when rummaging through the
+attic they unearth our musty, rigid, non-origami-folded, brittle,
+watt-gulping, non-corneal-direct display iPhone 6, "Oh that? It's an
+Apple *Pocket* Phone."
 
 
-
+----
 
 [^analogy]:Ancient SAT-style analogy format. A:B::C:D "A is to B as C is to D"
 
 [^strap]:I'm an angel investor in [Strap](straphq.com), making tools and analytics for wearable development teams.
+
+_UPDATE_: 2015-01-30 Grammar edits, clarifications. Focus on
+glanceability. Thanks to Patrick and Ana for feedback and comments.
