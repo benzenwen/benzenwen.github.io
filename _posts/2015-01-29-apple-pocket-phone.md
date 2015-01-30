@@ -2,6 +2,7 @@
 layout: post
 title:  "Apple Pocket Phone"
 date:   2015-01-29
+description: "I'll be telling my grandkids when they unearth my rigid, non-corneal-direct display iPhone 6, Oh that? It's an Apple Pocket Phone."
 categories: opinion product
 tags: marketing apple ios 
 ---
@@ -44,8 +45,12 @@ screening caller ID, or checking the time (!), here's a smart watch's
 glanceable utility: A smart watch is as much of an improvement over a
 smart phone as a wrist watch was over a pocket watch.
 
-There are other reasons I'm bullish on wearables,[^strap] but that
-glanceability is the initial hook.
+Yes, there's other functionality that's useful, like activity trackers
+and sleep trackers. New apps are being invented everyday.  Add
+authentication and authorization (e.g. payments, vehicle ignition) and
+the wearable gets personally powerful.  I'm bullish on
+wearables,[^strap] and glanceability is the just initial hook.
+
 
 Recall that a generation ago, this original 1983
 [Compaq](http://en.wikipedia.org/wiki/Compaq_Portable) was
@@ -53,8 +58,8 @@ considered a portable computer at 28 pounds (13 kg). I'll go out on a
 limb and say that in the future, our point of view will be similarly
 shifted.  Power capacity, radiated power efficiency, UX, text input,
 and 2-way communication will need innovation, but the bracelet form
-factor will prevail. We'll be telling our grandkids, when rummaging
-through the attic they unearth our musty, rigid, non-origami-folded,
+factor will prevail. I'll be telling my grandkids, when rummaging
+through the attic they unearth the musty, rigid, non-origami-folded,
 brittle, watt-gulping, non-corneal-direct display iPhone 6, "Oh that?
 It's an Apple *Pocket* Phone."
 
@@ -66,5 +71,5 @@ It's an Apple *Pocket* Phone."
 [^strap]:I'm delighted to be an angel investor in [Strap](straphq.com), making tools and analytics for wearable development teams.
 
 _UPDATE_: 2015-01-30 Grammar edits, clarifications. Focus on
-glanceability. Add link to TI watch. Thanks to Patrick and Ana for
-feedback and comments.
+glanceability. Add link to TI watch. Thanks to Patrick, Steve, and Ana
+for feedback and comments.
