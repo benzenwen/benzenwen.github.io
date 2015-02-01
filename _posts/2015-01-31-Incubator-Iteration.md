@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Incubator Iteratation"
+title:  "Incubator Iteration"
 date:   2015-01-31
 categories: maker art
 tags: startup VC incubators
