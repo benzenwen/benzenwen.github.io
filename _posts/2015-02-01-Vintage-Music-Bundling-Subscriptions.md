@@ -16,10 +16,10 @@ Back in the day, I signed up for a competing service, the
 [Colombia Record Club](http://en.wikipedia.org/wiki/Columbia_House).
 They had this Gold Box TV promotion, what today might be called an
 Easter Egg or JetBlue Hacker Special.  If you saw the TV ad, you were
-aware of an otherwise unlabeled yellow rectangle on the print ad that
-if filled out, would get you one more album.  What cross-channel
-marketing smarts that was! It made you feel like you knew something
-secret, even though those TV ads were ubiquitous.
+aware of an otherwise unlabeled small yellow rectangle on the print ad
+that if filled out with an album number, would get you one more album.
+What cross-channel marketing smarts that was! It made you feel like
+you knew something secret, even though those TV ads were ubiquitous.
 
 It worked on me.
 
