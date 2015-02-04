@@ -19,12 +19,12 @@ home. The email announcing that my package was in a locker named
 Annika also included the above coupon.
 
 It struck me as a little bizzare, that a bricks-and-mortar retailer
-would lease out precious floor space to the enemy. I hoped for the sake of
-Radio Shack shareholders that they were charging a pretty penny for
-the privilege of becoming a transient UPS Store / Mailbox Etc.  The
-coupon didn't work on me. I opened up my locker cell and struck up a
-a quick conversation with the store staff.  Otherwise, I left
-empty-handed. 
+would lease out precious floor space to the enemy. I hoped for the
+sake of Radio Shack shareholders that they were charging a pretty
+penny for the privilege of becoming a transient UPS Store / Mailbox
+Etc.  The coupon didn't work on me. I opened up my locker cell and got
+my package. I struck up a a quick conversation with the store staff.
+Except for my Amazon package, I left empty-handed.
 
 The retail location of the store is in the middle of a busy commercial
 block.  A well-travelled light rail line runs half a block away.  A
