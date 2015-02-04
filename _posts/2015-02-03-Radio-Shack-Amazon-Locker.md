@@ -4,6 +4,7 @@ title:  "Radio Shack Amazon Locker"
 date:   2015-02-03
 categories: opinion business
 tags: opinion business
+comments: True
 ---
 
 ![Radio Shack Amazon Locker](/assets/Radio%20Shack%20Amazon%20Locker%20Offer.png)  
