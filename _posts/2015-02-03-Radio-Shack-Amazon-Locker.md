@@ -13,6 +13,11 @@ With Radio Shack's situation looking dire, folks like Amazon and
 Sprint are circling like vultures for its
 [retail space](http://www.wired.com/2015/02/amazon-radioshack/)(Wired).
 
+As a card-carrying computer nerd of the 80's, my first computer was a
+TRS-80 Model I 4k.  That's four kilobytes of RAM.  I have two Radio
+Shack soldering irons and countless electronic doodads.  But it's been
+a while since I needed anything more than batteries from them.
+
 In early 2013, a friend of mine shipped me a package via an
 [Amazon Locker](http://www.amazon.com/b/ref=amb_link_366591722_2?_encoding=UTF8&node=6442600011). The
 locker happened to be in a mostly desolate Radio Shack near my
@@ -49,3 +54,4 @@ product was always pre-sold.  It would the exact opposite of a Radio
 Shack, where every cubic inch of product, it seems, will be never
 sold.
 
+_UPDATE:_ Added TRS-80 note.
