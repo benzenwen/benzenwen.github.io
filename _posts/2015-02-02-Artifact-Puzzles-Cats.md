@@ -3,7 +3,7 @@ layout: post
 title:  "Artifact Puzzles: Cats"
 date:   2015-02-02
 categories: misc 
-tags: pasttime leisure
+tags: pasttime leisure product
 ---
 
 ![Artifact Puzzles' Cats](http://ecx.images-amazon.com/images/I/51tVKXC0tvL.jpg)  
