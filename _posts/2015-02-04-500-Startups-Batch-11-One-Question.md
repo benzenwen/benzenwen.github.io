@@ -14,19 +14,24 @@ great time. I'm humbled by the energy, effort, and enthusiasm. Wow.
 Here are my completely biased[^biases], ungrammatical 1-minute
 summaries of each of them.  I am absolutely sure that there are
 errors, omissions, terrible mischaracterizations, and
-me-being-just-plain-clueless.  It's not much more than a quick
-exercise to scribble down what my uninitiated ears hear and
-brain remembers after a day.
+me-being-just-plain-clueless.  The list below is not much more than a
+quick exercise to scribble down what my uninitiated ears hear and
+brain remembered after a day or two.
 
-I also scribbled down the first question that I had that wasn't
-answered in the pitch as far as I remember.  That is not a criticism
-of any presentation at all.  To prompt questions is a goal for these
-sessions.  It's just what came to mind in recalling the pitch.
+I also scribbled down the first question that came to mind as wrote
+the summary.  That is not a criticism of any presentation at all.  To
+prompt questions is a goal for these sessions.  It's just what came to
+mind in recalling the pitch.
 
 Starting a company is a frightening, maddening, exhilarating, worthy
 endeavor. If you're reading this from one of the companies, y'all are
 awesome.[^awesome] Let me know if I totally missed something, want to
 answer the question, or heck if you just want to grab coffee.
+
+I have to note that the mechanics of the presentations were
+impressively smooth.  Thirty pitches in roughly 4 hours is not easy to
+do. Thank you for putting together a great demo day!
+
 
 In the order they appeared:
 
@@ -68,9 +73,8 @@ This is the midway point.  Tomorrow, I'll finish up with the rest of companies b
 | Astroprint | Push-button network-based and cloud-stored 3D printer control system. |||
 | NativeTap | Real Android phone & watch rental for test and debug.  Network-provisioned and accessed.  |||
 
-I have to note that the mechanics of the presentations were
-impressively smooth.  Thirty pitches in roughly 4 hours is not easy to
-do. 
+----
+UPDATE: Touched up intro paragraphs for clarity.  Moved last paragraph up. 
 
 [^Tyler]: Thank you to Tyler Freeman at Tappur for the invite.
 [^awesome]: Ok, even if you're not, you're awesome, too.
