@@ -53,7 +53,7 @@ In the order they appeared:
 | [Slidebean](https://angel.co/slidebean) | A super-wizard for building presentation slides. | Does it run on iOS Safari? How far out to a native app? ||
 | [Doughbies](https://angel.co/doughbies) | Fresh baked cookies-as-a-service. | What's the delivery range for 20-min cookies in SF, for example? | The cookie was a nice touch. |
 
-This is the midway point.  Tomorrow, I'll finish up with the rest of companies below.
+This is the midway point.  [Tomorrow](/opinion/business/2015/02/05/Part-2-500-Startups-Batch-11-One-Question/), I'll finish up with the rest of companies below.
 
 | Name & Angelist | My takeaway | One Question | Notes |
 |:------------:|:------------|:-------------|:------|
@@ -69,12 +69,13 @@ This is the midway point.  Tomorrow, I'll finish up with the rest of companies b
 | Mountary | White glove picture framing and matting-as-a-service. |||
 | PayKind | Fine-grained donation payment, redemption, and analytics. Africa focused. |||
 | 99games | Used video game marketplace. |||
-| Ewafeyat.com | Middle Eastern Obituary collaborative authoring and broadcast SaaS. |||
+| Elwafeyat | Middle Eastern Obituary collaborative authoring and broadcast SaaS. |||
 | Astroprint | Push-button network-based and cloud-stored 3D printer control system. |||
 | NativeTap | Real Android phone & watch rental for test and debug.  Network-provisioned and accessed.  |||
 
 ----
-UPDATE: Touched up intro paragraphs for clarity.  Moved last paragraph up. 
+UPDATE: Touched up intro paragraphs for clarity.  Moved last paragraph
+up.  Elwafeyat spelling corrected.  Added link to second set of companies.
 
 [^Tyler]: Thank you to Tyler Freeman at Tappur for the invite.
 [^awesome]: Ok, even if you're not, you're awesome, too.
