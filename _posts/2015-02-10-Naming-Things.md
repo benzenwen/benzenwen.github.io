@@ -16,7 +16,7 @@ are a few acid tests to throw on your names ideas.
 2. Is easy for most people to spell: +1
 3. Is "scalable" meaning there are a variety of natural sub-names +1 
 1. You have to spell out your URL in phone conversation: -2
-4. Your 15-second radio spot uses 10 seconds to get the URL out
+4. Your 15-second radio spot uses 10 seconds to get the URL out -2
 3. You rely on interCaps as a pronounciation hint: -1
 4. It's trademarkable: +2
 5. Is available across all relevant media +2
