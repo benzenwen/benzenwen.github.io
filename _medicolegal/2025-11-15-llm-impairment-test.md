@@ -26,35 +26,139 @@ describe a simple prompt test with five LLMs to calculate impairment
 ratings from The AMA Guides to the Evaluation of Permanent Impairment,
 Fifth edition, 2001, Example 17-7.
 
-This investigation originates from the ImpairMaster AI Lab. Our intent is to reveal the capabilities of ChatGPT, Claude, and Gemini LLMs in the medicolegal domain and to understand performance variation across systems. This is not an exhaustive review; rather, we sought to assess LLM capabilities and limitations. We share these preliminary results to spur discussion in the community. We desire to evaluate additional models, techniques, and examples in future work.
-We selected a well-known example with explicatory text sufficient for instructional purposes. Many examples in the AMA Guides 5th edition require arithmetic calculations with conditional paths and extensive cross-references to other sections. The ImpairMaster software product is designed for these calculations, so we included results from our latest Guides 5 version (released October 2024) for comparison. Future work may include examples from the AMA Guides 6th edition (both 2008 and 2024 versions).
-In reviewing LLM outputs, we critiqued each narrative report. While an impairment report culminates in a numerical whole person impairment (WPI) percentage, the accompanying narrative provides critical supporting documentation. A well-executed narrative offers detailed justification for each calculation step, with specific references to tables and methodologies in the AMA Guides 5th edition. Proper narratives also display mathematical calculations transparently. To enhance readability, we developed a report annotation design that visually highlights each error. Individual reports and critiques are linked in the Results table below.
-The AI provider market evolves rapidly, with well-funded competitors continuously optimizing various parameters including economics, quality, technical performance, scope, regulatory compliance, safety, and legal considerations. Our results represent point-in-time snapshots and are not definitive, particularly given the probabilistic nature of these algorithms. We conclude that while these tools demonstrate power, they require guidance and review by experts trained in impairment rating methodologies.
-Motivation and Literature review 
-As part of our product development efforts, the ImpairMaster AI Lab evaluates novel technologies for user capability delivery. We sought to answer: How effective are LLMs for impairment rating workflows? In medical, legal, software development, and creative domains, LLMs receive favorable reviews. The paper "Large Language Model Influence on Diagnostic Reasoning: A Randomized Clinical Trial" (Goh E., Gallo, R.J., Strong, E. et al., 2024) demonstrates LLM utility as a medical diagnostic aid, concluding: "Despite the impressive performance of these emerging technologies in benchmarking tasks, current integrations of LLMs require human participation, with the LLM augmenting, rather than replacing, human expertise and oversight."
-Initially, mathematical capabilities of these AI models warranted particular attention. Earlier 2023-vintage models demonstrated uneven mathematical ability. "The fragility of LLMs in mathematical reasoning is evident across three dimensions" (Large Language Models for Mathematical Reasoning: Progresses and Challenges, Ahn et al., 2024). Advances have continued with "Large Reasoning Models" (LRM) employing Chain of Thought and agent-based techniques that break down prompts into multiple synthesized stages. These newer models continue under research scrutiny: "these [LRM] models fail to develop generalizable reasoning capabilities beyond certain complexity thresholds" (The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity, Shojaee, Mirzadeh, et al., 2025).
-Method
-We selected Example 17-7 from the AMA Guides 5th Edition, "Impairment Due to Decreased Range of Motion from a Tibia Fracture," as our test case. We employed a single primary prompt with a secondary prompt when needed to direct the LLM toward independent analysis. One LLM (Claude) had been configured with tool use capability, and another (OpenAI GPT-5) recognized the example and presented only the Guide's conclusion. Both required a secondary prompt to elicit original analysis.
-Primary prompt:
-I'm working with a friend on the Independent Medical Exam market. This is a sample patient narrative. Can you help me create an impairment rating according to the AMA Guides 5th edition?
+This investigation originates from the ImpairMaster AI Lab. Our intent
+is to reveal the capabilities of ChatGPT, Claude, and Gemini LLMs in
+the medicolegal domain and to understand performance variation across
+systems. This is not an exhaustive review; rather, we sought to assess
+LLM capabilities and limitations. We share these preliminary results
+to spur discussion in the community. We desire to evaluate additional
+models, techniques, and examples in future work.
+
+We selected a well-known example with explicatory text sufficient for
+instructional purposes. Many examples in the AMA Guides 5th edition
+require arithmetic calculations with conditional paths and extensive
+cross-references to other sections. The ImpairMaster software product
+is designed for these calculations, so we included results from our
+latest Guides 5 version (released October 2024) for comparison. Future
+work may include examples from the AMA Guides 6th edition (both 2008
+and 2024 versions).
+
+In reviewing LLM outputs, we critiqued each narrative report. While an
+impairment report culminates in a numerical whole person impairment
+(WPI) percentage, the accompanying narrative provides critical
+supporting documentation. A well-executed narrative offers detailed
+justification for each calculation step, with specific references to
+tables and methodologies in the AMA Guides 5th edition. Proper
+narratives also display mathematical calculations transparently. To
+enhance readability, we developed a report annotation design that
+visually highlights each error. Individual reports and critiques are
+linked in the Results table below.
+
+The AI provider market evolves rapidly, with well-funded competitors
+continuously optimizing various parameters including economics,
+quality, technical performance, scope, regulatory compliance, safety,
+and legal considerations. Our results represent point-in-time
+snapshots and are not definitive, particularly given the probabilistic
+nature of these algorithms. We conclude that while these tools
+demonstrate power, they require guidance and review by experts trained
+in impairment rating methodologies.
+
+# Motivation and Literature review 
+
+As part of our product development efforts, the ImpairMaster AI Lab
+evaluates novel technologies for user capability delivery. We sought
+to answer: How effective are LLMs for impairment rating workflows? In
+medical, legal, software development, and creative domains, LLMs
+receive favorable reviews. The paper "Large Language Model Influence
+on Diagnostic Reasoning: A Randomized Clinical Trial" (Goh E., Gallo,
+R.J., Strong, E. et al., 2024) demonstrates LLM utility as a medical
+diagnostic aid, concluding: "Despite the impressive performance of
+these emerging technologies in benchmarking tasks, current
+integrations of LLMs require human participation, with the LLM
+augmenting, rather than replacing, human expertise and oversight."
+
+Initially, mathematical capabilities of these AI models warranted
+particular attention. Earlier 2023-vintage models demonstrated uneven
+mathematical ability. "The fragility of LLMs in mathematical reasoning
+is evident across three dimensions" (Large Language Models for
+Mathematical Reasoning: Progresses and Challenges, Ahn et al.,
+2024). Advances have continued with "Large Reasoning Models" (LRM)
+employing Chain of Thought and agent-based techniques that break down
+prompts into multiple synthesized stages. These newer models continue
+under research scrutiny: "these [LRM] models fail to develop
+generalizable reasoning capabilities beyond certain complexity
+thresholds" (The Illusion of Thinking: Understanding the Strengths and
+Limitations of Reasoning Models via the Lens of Problem Complexity,
+Shojaee, Mirzadeh, et al., 2025).
+
+# Method
+
+We selected Example 17-7 from the AMA Guides 5th Edition, "Impairment
+Due to Decreased Range of Motion from a Tibia Fracture," as our test
+case. We employed a single primary prompt with a secondary prompt when
+needed to direct the LLM toward independent analysis. One LLM (Claude)
+had been configured with tool use capability, and another (OpenAI
+GPT-5) recognized the example and presented only the Guide's
+conclusion. Both required a secondary prompt to elicit original
+analysis.
+
+# Primary prompt:
+
+I'm working with a friend on the Independent Medical Exam market. This
+is a sample patient narrative. Can you help me create an impairment
+rating according to the AMA Guides 5th edition?
+
 Subject: 45-year-old woman.
+
 History: Sustained a tibia fracture in a motor vehicle accident.
-Current Symptoms: No pain; stiffness about the ankle and foot, with some swelling of the foot and ankle toward evening. Cannot stand for long periods and cannot use shoes with elevated heels.
-Physical Exam: Ankle flexion is 6°; ankle extension is 5°. Toe extension is less than 10° for all toes. 1-cm atrophy of the left calf. It is difficult to determine the strength of the ankle and toe extensors, but a mild weakness is noted.
+
+Current Symptoms: No pain; stiffness about the ankle and foot, with
+some swelling of the foot and ankle toward evening. Cannot stand for
+long periods and cannot use shoes with elevated heels.
+
+Physical Exam: Ankle flexion is 6°; ankle extension is 5°. Toe
+extension is less than 10° for all toes. 1-cm atrophy of the left
+calf. It is difficult to determine the strength of the ankle and toe
+extensors, but a mild weakness is noted.
+
 Clinical Studies: X-rays: healed tibia fracture with no malalignment.
+
 Diagnosis: Healed tibia fracture.
-LLMs tested:
+
+# LLMs tested:
 - OpenAI ChatGPT o3
 - OpenAI ChatGPT GPT-5
 - Claude Sonnet 4
 - Claude Sonnet 4.5
 - Gemini 2.5 Pro
-For comparison, we also processed the example through ImpairMaster software.
-Results
-An impairment rating yields both a final whole person impairment (WPI) percentage and a narrative report describing the calculation methodology. The narrative report holds equal importance to the final numerical result. The WPI calculation must be defensible, with the narrative providing justification for each calculation step. A comprehensive narrative cites specific tables and methods from the AMA Guides 5th edition and details mathematical calculations as needed.
-The WPI calculated by each LLM appears in the table below. The first row presents the authoritative AMA Guides 5 text answer; the final row shows the ImpairMaster calculation. The Error % column indicates the percentage deviation from the established Guides 5 text. The Quick Impression column provides summary analysis. The final column links to each model's detailed narrative with error annotations.
-Each detailed narrative report link displays in two columns. The right column contains the user prompt and LLM response. The left column presents annotations summarizing LLM errors, using the Guides example text as the correct reference. Extended annotations continue in footnotes below. Note: Reports are optimized for larger screens; on mobile devices, annotations appear as a block after the report text.
 
+For comparison, we also processed the example through ImpairMaster software.
+
+# Results
+
+An impairment rating yields both a final whole person impairment (WPI)
+percentage and a narrative report describing the calculation
+methodology. The narrative report holds equal importance to the final
+numerical result. The WPI calculation must be defensible, with the
+narrative providing justification for each calculation step. A
+comprehensive narrative cites specific tables and methods from the AMA
+Guides 5th edition and details mathematical calculations as needed.
+
+The WPI calculated by each LLM appears in the table below. The first
+row presents the authoritative AMA Guides 5 text answer; the final row
+shows the ImpairMaster calculation. The Error % column indicates the
+percentage deviation from the established Guides 5 text. The Quick
+Impression column provides summary analysis. The final column links to
+each model's detailed narrative with error annotations.
+
+Each detailed narrative report link displays in two columns. The right
+column contains the user prompt and LLM response. The left column
+presents annotations summarizing LLM errors, using the Guides example
+text as the correct reference. Extended annotations continue in
+footnotes below. Note: Reports are optimized for larger screens; on
+mobile devices, annotations appear as a block after the report text.
+
+Thank you to ImpairMaster for supporting this work.
 
 Testing the medicolegal collection.
 
