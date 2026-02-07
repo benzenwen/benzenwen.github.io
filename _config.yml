@@ -1,12 +1,27 @@
 # Site settings
-title: Almost Nil. 
+title: Benwen Blog. 
 email: benzenwen at benwen dot com
-description: "Ben Wen's Blog. My set of unfiltered musings on life, technology, craft, and family. All opinions are mine. Copyright &#169; 2014-2016 Benson Wen."
+description: "My set of unfiltered musings on life, technology, craft, and family. All opinions are mine. Copyright &#169; 2014-2026 Benson Wen."
 baseurl: ""
-url: "http://blog.benwen.com"
+url: "http://benwen.com"
 twitter_username: benwen
 github_username:  benzenwen
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Collections
+collections:
+  medicolegal:
+    output: true
+    permalink: /medicolegal/:year/:month/:day/:title/
+
+# Collection defaults
+defaults:
+  - scope:
+      path: ""
+      type: "medicolegal"
+    values:
+      layout: "llm-analysis"
+      comments: true

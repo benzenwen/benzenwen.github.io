@@ -16,7 +16,6 @@ body {
   background-color: #fdfdfd;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -325,11 +324,69 @@ a:visited { color: #205caa; }
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 
+/* Table styles */
+/* ----------------------------------------------------------*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 24px 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  border: none;
+  border-bottom: 1px solid #e5e7eb;
+  color: black;
+}
+
+th {
+  padding: 16px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: none;
+}
+
+td {
+  padding: 14px 12px;
+  border: none;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+}
+
+tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+
 /* media queries */
 /* ----------------------------------------------------------*/
 
 
 @media screen and (max-width: 750px) {
+
+  /* Responsive table adjustments for tablets */
+  th, td {
+    padding: 12px 10px;
+    font-size: 14px;
+  }
+  
+  th {
+    font-size: 13px;
+  }
 
   .footer-col-1 { width: 50%; }
 

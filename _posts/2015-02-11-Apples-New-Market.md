@@ -14,7 +14,7 @@ against the Clay Christensen's low-end disruptive innovation
 model... at least applied to Apple's business.  He ends with a sly
 reference to the further disruptive possibilities of the Apple Watch.
 To which,
-[I agree](http://blog.benwen.com/opinion/product/2015/01/29/apple-pocket-phone/)
+[I agree](/opinion/product/2015/01/29/apple-pocket-phone/)
 heartily.
 
 Makes me wonder: What other businesses could this dis-commodification apply?
