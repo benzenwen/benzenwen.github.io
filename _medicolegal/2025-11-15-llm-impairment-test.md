@@ -160,7 +160,6 @@ mobile devices, annotations appear as a block after the report text.
 
 Thank you to ImpairMaster for supporting this work.
 
-Testing the medicolegal collection.
 
 | Model and Date Tested | WPI | Error %<br>from Guides 5 | Quick Impression | Detailed Narrative Link |
 |:----------------------|:----|:-------------------------|:-----------------|:------------------------|
